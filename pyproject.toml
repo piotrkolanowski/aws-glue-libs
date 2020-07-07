@@ -1,11 +1,14 @@
 [tool.poetry]
 name = "awsglue-local"
-version = "0.2.0"
-description = ""
+version = "0.2.1"
+description = "Build Python interfaces to the AWS Glue ETL library for use as a local dependency."
 authors = ["Ryan Eloff <ryan.peter.eloff@gmail.com>"]
 packages = [
     { include = "awsglue" },
 ]
+license = "Amazon Software License 1.0"
+readme = "README.md"
+repository = "https://github.com/rpeloff/aws-glue-libs"
 
 [tool.poetry.dependencies]
 python = "*"
